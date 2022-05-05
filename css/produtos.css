@@ -27,8 +27,8 @@
 }
 
 .img-produto{
-    width: 400px;
-    height: 300px;
+    width: 260px;
+    height: 200px;
     box-shadow: 5px 5px 4px #241615;
     border-radius: 5px;
 }
@@ -40,6 +40,7 @@
 .contener-produto{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
     padding-bottom: 20px;
 }
@@ -47,17 +48,19 @@
 .contener-1{
     display: flex;
     flex-direction: column;
-    margin-left: 170px;
+    margin-left: 150px;
+    margin-right: 10px;
     
 }
 
 .contener-2{
     display: flex;
     flex-direction: column;
-    margin-right: 170px;
+    margin-right: 120px;
+    margin-left: 20px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
    .img-produto{
        width: 200px;
        height: 200px;
