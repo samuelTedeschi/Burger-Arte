@@ -1,0 +1,99 @@
+.contener-contato{
+    background: #0F0F0F;
+    
+}
+
+.logo-nome{
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.logo-burger{
+    width: 2vw;
+}
+
+.rede-social{
+    color: #FFF5CF;;
+    font-size: 18px;
+    font-family:'Roboto slab';
+    font-weight: 300;
+}
+
+.mapa-contato{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.mapa{
+    padding-bottom: 20px;
+    margin-right: 170px;
+}
+
+
+.insta{
+    color: #FFF5CF;;
+    margin-left: 170px;
+    
+}
+
+.tel{
+    margin-top: 20px;
+    color:#FFF5CF;;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    margin-left: 170px;
+}
+
+.endereso{
+    margin-top: 20px;
+    color:#FFF5CF;;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    margin-left: 170px;
+}
+
+.link-logo{
+    display: flex;
+    align-items: center;
+    color: #FFF5CF;
+    text-decoration: none;
+}
+
+.logo-insta{
+    width: 2vw;
+    margin-left: 170px;
+}
+
+@media screen and (max-width:600px){
+    .logo-nome{
+        margin-left: 70px;
+    }
+
+    .insta{
+        margin-left: 70px;
+    }
+
+    .logo-insta{
+        margin-left: 70px;
+    }
+
+    .tel{
+        margin-left: 70px;
+    }
+
+    .endereso{
+        margin-left: 70px;
+    }
+
+    .mapa{
+        margin-right: 70px;
+
+    }
+
+    .mapa-1{
+        width: 200px;
+    }
+}

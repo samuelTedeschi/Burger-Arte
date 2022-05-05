@@ -1,0 +1,23 @@
+.contener-sobre{
+    background: #261D1B;
+}
+
+.titulo-sobre{
+    color: #FFF5CF;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto slab';
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 170px;
+}
+
+.conteudo-sobre{
+    color: #FFF5CF;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto slab';
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 30px;
+}

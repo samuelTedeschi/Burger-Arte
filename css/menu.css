@@ -1,0 +1,54 @@
+header{
+    background: #0D0D0D;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 50px;
+}
+.logo-titulo{
+    color: #FFF5CF;
+    font-family:'Roboto Slab' ;
+    font-size: 28px;
+}
+
+.nav-lista{
+    color: #FFF5CF;
+    display: flex;
+}
+
+li a{
+    color: #FFF5CF;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFC405;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+    }
+
+    .nav-lista{
+        margin-top: 10px;
+
+    }
+}

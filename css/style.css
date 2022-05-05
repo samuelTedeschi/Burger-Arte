@@ -1,0 +1,23 @@
+
+/* Color Theme Swatches in Hex */
+.IDEAL-LANCHES-1-hex { color: #FFF5CF; }
+.IDEAL-LANCHES-2-hex { color: #FFC405; }
+.IDEAL-LANCHES-3-hex { color: #F28507; }
+.IDEAL-LANCHES-4-hex { color: #241615; }
+.IDEAL-LANCHES-5-hex { color: #0D0D0D; }
+
+
+* {font-family: 'Roboto Slab', serif; }
+
+.rodape{
+    background: black;
+}
+
+.rodape-texto{
+    color: #FFF5CF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto slab';
+    font-size: 14px;
+}
