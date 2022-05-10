@@ -2,7 +2,7 @@
     margin-left: 170px;
     font-family: 'Roboto Slab';
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.5rem;
     padding-top: 30px;
     padding-bottom: 10px;
     color: #FFF5CF;
@@ -11,7 +11,7 @@
 .nome-produto{
     font-family: 'Roboto slab';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 5px;
     color: #FFF5CF;
@@ -21,7 +21,7 @@
 .descricao{
     font-family: 'Roboto slab';
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1rem;
     padding-bottom: 20px;
     color: #FFF5CF;
 }
@@ -40,7 +40,6 @@
 .contener-produto{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 20px;
     padding-bottom: 20px;
 }
@@ -49,7 +48,8 @@
     display: flex;
     flex-direction: column;
     margin-left: 150px;
-    margin-right: 10px;
+    margin-right: 50px;
+    
     
 }
 
@@ -57,10 +57,10 @@
     display: flex;
     flex-direction: column;
     margin-right: 120px;
-    margin-left: 20px;
+    
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
    .img-produto{
        width: 200px;
        height: 200px;

@@ -19,7 +19,7 @@ header{
 .logo-titulo{
     color: #FFF5CF;
     font-family:'Roboto Slab' ;
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 .nav-lista{
@@ -30,7 +30,7 @@ header{
 li a{
     color: #FFF5CF;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Roboto Slab';
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ a:hover{
     text-decoration: none;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     .menu{
         display: flex;
         flex-direction: column;

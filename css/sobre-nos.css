@@ -4,7 +4,7 @@
 
 .titulo-sobre{
     color: #FFF5CF;
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: 300;
     font-family: 'Roboto slab';
     padding-top: 30px;
@@ -14,7 +14,7 @@
 
 .conteudo-sobre{
     color: #FFF5CF;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 300;
     font-family: 'Roboto slab';
     padding-left: 170px;
