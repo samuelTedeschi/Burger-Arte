@@ -1,6 +1,6 @@
 # Burger-Arter
-## Web site de uma Hamburgueria ficticia 
-Meu primeiro projeto, aplicando o meu conhecimento, tecnicas e criatividade, tenho grande orgulho de ter concluido ele com eficiencia.
+## Web site de uma Hamburgueria fictícia 
+Meu primeiro projeto, aplicando os meus conhecimentos, tecnicas e criatividade, tenho grande orgulho de ter concluido ele com eficiencia.
 Nele eu apliquei meu conhecimento em HTML e CSS, tambem utilizei o Bootstrap 5 para fazer a Apresestaçao de slide 
 
 ### link da pagina:
