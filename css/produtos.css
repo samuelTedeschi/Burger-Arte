@@ -1,80 +1,76 @@
-.titulo-produto{
-    margin-left: 170px;
+.produtos{
+    background: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.produtos h1{
+    text-align: center;
     font-family: 'Roboto Slab';
-    font-weight: 400;
-    font-size: 2.5rem;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 60px;
+    padding-bottom: 20px;
     color: #FFF5CF;
 }
 
-.nome-produto{
+.bugueres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+}
+    
+.bugueres img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 5px 4px #241615;
+    border-radius: 5px;
+    
+}
+
+.produto{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto h3{
     font-family: 'Roboto slab';
     font-weight: 400;
     font-size: 1.5rem;
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #FFF5CF;
-    border-left: #F28507 solid 3px;
+    border-left: #F28507 solid 2px;
 }
 
-.descricao{
+.produto p {
     font-family: 'Roboto slab';
     font-weight: 300;
     font-size: 1rem;
-    padding-bottom: 20px;
     color: #FFF5CF;
-}
-
-.img-produto{
-    width: 260px;
-    height: 200px;
-    box-shadow: 5px 5px 4px #241615;
-    border-radius: 5px;
-}
-
-.div-contener{
-    background: #0D0D0D;
-}
-
-.contener-produto{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-
-.contener-1{
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    margin-right: 50px;
-    
     
 }
 
-.contener-2{
-    display: flex;
-    flex-direction: column;
-    margin-right: 120px;
-    
-}
+
 
 @media screen and (max-width:600px) {
    .img-produto{
-       width: 200px;
-       height: 200px;
+     margin: 0;
    }
    
-   .contener-produto{
-       display: flex;
-       align-items: center;
+   .produto{
+    margin: 0;
    }
 
-   .contener-1{
-       margin-left: 70px;
-       margin-right: 10px;
+   .produto h3{
+    margin-left: 20px;
    }
-    
-    
+
+   .produto p {
+    text-align: center;
+    margin-bottom: 20px;
+   }
 }

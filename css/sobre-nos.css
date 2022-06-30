@@ -1,23 +1,48 @@
-.contener-sobre{
+.sobre{
     background: #261D1B;
+    padding: 20px;
 }
 
-.titulo-sobre{
+.sobre h2{
     color: #FFF5CF;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
     font-family: 'Roboto slab';
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 170px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.conteudo-sobre{
+
+.sobre p{
     color: #FFF5CF;
     font-size: 1.5rem;
     font-weight: 300;
     font-family: 'Roboto slab';
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-bottom: 30px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+@media screen and (max-width:480px){
+    .sobre{
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sobre h2{
+        padding: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sobre p{
+        padding: 0;
+        margin-top: 20px;
+        font-size: 1rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+
 }
